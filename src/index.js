@@ -1,9 +1,8 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+import ReactDOM from 'react-dom';
 
-export default App
+import './index.css';
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById('root'))
